@@ -1,0 +1,16 @@
+dbStage1:
+  username: root
+  password: root
+  connectionUrl: jdbc:mysql://localhost/my_db?serverTimezone=Europe/Moscow&useSSL=false&allowPublicKeyRetrieval=true
+
+dbStage2:
+  username: root2
+  password: root2
+  connectionUrl: "some connection url"
+
+generatedData:
+  validPhoneNumberPattern: "\\+375(25|29|33|44)\\d{7}"
+
+
+stage1:
+  baseUrl: http://localhost:8090/api
